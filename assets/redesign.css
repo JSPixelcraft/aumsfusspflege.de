@@ -28,3 +28,5 @@ html{scroll-behavior:smooth}body{margin:0}
 .aums-design .site-navigation .ad-mobile a[aria-current="page"]{color:#254d79;font-weight:600}
 .aums-design [id]{scroll-margin-top:120px}
 @media(max-width:800px){.aums-design .site-navigation .site-desktop-nav{display:none}.aums-design .site-navigation .ad-menu{display:flex}.aums-design .site-navigation .ad-header{min-height:84px}}
+
+#aums-gesamt .ag-google-rating a{flex-direction:column;gap:9px;min-width:250px;padding:20px 28px;color:#254d79;font-size:14px;letter-spacing:normal;text-align:center;border:1px solid #dce4ec;border-radius:14px;background:#f7f9fb}#aums-gesamt .ag-google-label{font:500 17px/1.4 Manrope,Arial,sans-serif;letter-spacing:-.3px}#aums-gesamt .ag-google-score{display:flex;align-items:center;justify-content:center;gap:12px}#aums-gesamt .ag-google-score strong{font:600 24px/1.2 Manrope,Arial,sans-serif}#aums-gesamt .ag-google-stars{color:#a47821;font-size:23px;letter-spacing:3px}#aums-gesamt .ag-google-scale{color:#596775;font-size:12px}#aums-gesamt .ag-google-count{color:#596775;font-size:12px}
