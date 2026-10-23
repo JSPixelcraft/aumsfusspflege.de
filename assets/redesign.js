@@ -25,7 +25,7 @@
     svg.innerHTML = content;
     el.replaceWith(svg);
   });
-  const menu = root.querySelector('.ad-menu');
+  const menu = root.querySelector('.ui-menu');
   const mobile = document.getElementById(menu.getAttribute('aria-controls'));
   const close = () => { mobile.hidden=true;menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Menü öffnen'); };
   menu.addEventListener('click', () => {
