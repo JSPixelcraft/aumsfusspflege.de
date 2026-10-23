@@ -30,3 +30,14 @@ html{scroll-behavior:smooth}body{margin:0}
 @media(max-width:800px){.aums-design .site-navigation .site-desktop-nav{display:none}.aums-design .site-navigation .ui-menu{display:flex}.aums-design .site-navigation .ui-header{min-height:84px}}
 
 #aums-gesamt .ag-google-rating a{flex-direction:column;gap:9px;min-width:250px;padding:20px 28px;color:#254d79;font-size:14px;letter-spacing:normal;text-align:center;border:1px solid #dce4ec;border-radius:14px;background:#f7f9fb}#aums-gesamt .ag-google-label{font:500 17px/1.4 Manrope,Arial,sans-serif;letter-spacing:-.3px}#aums-gesamt .ag-google-score{display:flex;align-items:center;justify-content:center;gap:12px}#aums-gesamt .ag-google-score strong{font:600 24px/1.2 Manrope,Arial,sans-serif}#aums-gesamt .ag-google-stars{color:#a47821;font-size:23px;letter-spacing:3px}#aums-gesamt .ag-google-scale{color:#596775;font-size:12px}#aums-gesamt .ag-google-count{color:#596775;font-size:12px}
+
+/* Keep the desktop masthead balanced on large monitors. */
+.aums-design .site-navigation .ui-header{max-width:1240px;margin-inline:auto;padding-inline:32px}
+#aums-gesamt .ak-hero{max-width:1240px;margin-inline:auto;padding:44px 32px 48px;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:64px;min-height:0;align-items:center}
+#aums-gesamt .ak-copy{padding:0;max-width:530px;width:100%}
+#aums-gesamt .ak-copy h1{margin:20px 0 25px;font-size:clamp(48px,4.5vw,72px)}
+#aums-gesamt .ak-copy .ui-description{max-width:440px;font-size:15px;line-height:1.85}
+#aums-gesamt .ak-photo{width:100%;max-width:430px;aspect-ratio:448 / 597;min-height:0;margin:0;justify-self:end;border-radius:50% 50% 0 0 / 37.52% 37.52% 0 0}
+#aums-gesamt .ak-photo>img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+@media(min-width:601px) and (max-width:900px){#aums-gesamt .ak-hero{gap:30px;padding:34px 6% 40px}#aums-gesamt .ak-copy h1{font-size:49px}#aums-gesamt .ak-copy .ui-description{font-size:13px}}
+@media(max-width:600px){.aums-design .site-navigation .ui-header{padding-inline:6%}#aums-gesamt .ak-hero{grid-template-columns:1fr;gap:30px;padding:32px 6% 38px}#aums-gesamt .ak-copy h1{font-size:55px}#aums-gesamt .ak-copy .ui-description{max-width:none;font-size:14px}#aums-gesamt .ak-photo{max-width:380px;justify-self:center}}
