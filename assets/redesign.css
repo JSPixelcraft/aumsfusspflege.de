@@ -16,3 +16,15 @@ html{scroll-behavior:smooth}body{margin:0}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 #aums-gesamt .ag-google-rating{padding-top:0;padding-bottom:38px;display:flex;justify-content:center}#aums-gesamt .ag-google-rating a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:170px;color:#a47821;font-size:28px;letter-spacing:7px;border-radius:8px}#aums-gesamt .ag-google-rating a:hover{background:#f5f1e7}#aums-gesamt .ag-google-rating a:focus-visible{outline:3px solid #254d79;outline-offset:5px}
+
+/* Shared navigation on all three pages. */
+.aums-design .site-navigation{position:sticky;top:0;z-index:1000;background:#fff;box-shadow:0 2px 12px rgba(32,58,84,.06)}
+.aums-design .site-navigation .ad-header{position:relative;background:#fff;border-bottom:1px solid #e0e7ee}
+.aums-design .site-desktop-nav{display:flex;align-items:center;gap:24px}
+.aums-design .site-desktop-nav a{font-size:13px;padding:9px 0;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+.aums-design .site-desktop-nav a:hover,.aums-design .site-desktop-nav a[aria-current="page"]{color:#254d79;border-bottom-color:#254d79}
+.aums-design .site-navigation .ad-mobile{background:#fff;gap:0;padding:12px 6% 18px}
+.aums-design .site-navigation .ad-mobile a{display:block;width:100%;font-size:15px;padding:11px 0}
+.aums-design .site-navigation .ad-mobile a[aria-current="page"]{color:#254d79;font-weight:600}
+.aums-design [id]{scroll-margin-top:120px}
+@media(max-width:800px){.aums-design .site-navigation .site-desktop-nav{display:none}.aums-design .site-navigation .ad-menu{display:flex}.aums-design .site-navigation .ad-header{min-height:84px}}
